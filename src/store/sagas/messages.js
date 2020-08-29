@@ -5,40 +5,34 @@ import { messagesLoaded } from '../actions';
 const messageDetails = {
     '2': [
         {
-            id: '1',
+            id: '9',
             imageUrl: null,
             imageAlt: null,
-            messageText: 'Ok fair enough. Well good talking to you.',
+            messageText: 'zomentum ka paper de raaha hai',
             createdAt: 'Oct 20',
             isMyMessage: true
         },
         {
-            id: '2',
-            imageUrl: require('../../images/profiles/kim.jpeg'),
+            id: '8',
+            imageUrl: require('../../images/profiles/ankit.jpg'),
             imageAlt: 'Kim O\'Neil',
-            messageText: `
-                Not sure exactly yet. It will be next year sometime. Probably late.
-            `,
+            messageText: `ha bhai 10 lakh de rahi hai`,
             createdAt: 'Oct 20',
             isMyMessage: false
         },
         {
-            id: '3',
+            id: '7',
             imageUrl: null,
             imageAlt: null,
-            messageText: 'Yeah I know. But oh well. So when is the big date?',
+            messageText: 'stipened 35000 hai',
             createdAt: 'Oct 19',
             isMyMessage: true
         },
         {
-            id: '4',
-            imageUrl: require('../../images/profiles/kim.jpeg'),
+            id: '6',
+            imageUrl: require('../../images/profiles/ankit.jpg'),
             imageAlt: 'Kim O\'Neil',
-            messageText: `
-                Well I know you like doing that stuff. But honestly I think
-                you are already really talented. It's a shame you haven't found
-                what you are looking for yet.
-            `,
+            messageText: `bangalore me hai`,
             createdAt: 'Oct 19',
             isMyMessage: false
         },
@@ -46,45 +40,39 @@ const messageDetails = {
             id: '5',
             imageUrl: null,
             imageAlt: null,
-            messageText: `
-                I'm doing ok. Just working on building some applications to
-                bulk up my resume, so I can get a better job.
-            `,
+            messageText: `Assesment diya hai frontend ka`,
             createdAt: 'Oct 19',
             isMyMessage: true
         },
         {
-            id: '6',
-            imageUrl: require('../../images/profiles/kim.jpeg'),
+            id: '4',
+            imageUrl: require('../../images/profiles/ankit.jpg'),
             imageAlt: 'Kim O\'Neil',
-            messageText: `
-                I've just been really busy at work myself, looking to get
-                married sometime next year too. How are you going?
-            `,
+            messageText: `ha maine  react pe kafi website banayi hai`,
             createdAt: 'Oct 19',
             isMyMessage: false
         },
         {
-            id: '7',
+            id: '3',
             imageUrl: null,
             imageAlt: null,
-            messageText: 'Yes it has been a little while',
+            messageText: 'narang suits ki frontend maine kari thi',
             createdAt: 'Oct 19',
             isMyMessage: true
         },
         {
-            id: '8',
-            imageUrl: require('../../images/profiles/kim.jpeg'),
+            id: '2',
+            imageUrl: require('../../images/profiles/ankit.jpg'),
             imageAlt: 'Kim O\'Neil',
-            messageText: 'Hey!!!! Have not spoken to you for a while',
+            messageText: 'chalo badiya hai',
             createdAt: 'Oct 19',
             isMyMessage: false
         },
         {
-            id: '9',
+            id: '1',
             imageUrl: null,
             imageAlt: null,
-            messageText: 'Hi Kim?',
+            messageText: 'Hello ji!!',
             createdAt: 'Oct 19',
             isMyMessage: true
         }

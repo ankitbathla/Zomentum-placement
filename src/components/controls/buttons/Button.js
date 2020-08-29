@@ -5,7 +5,7 @@ import './Button.scss';
 const Button = ({children}) => {
     return (
         <>
-            <button className="primary-button">{ children }</button>
+            <button className="secondary-button">{ children }</button>
         </>
     );
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 
-import TrashIcon from '../controls/icons/trash-icon/TrashIcon';
 
 import './ChatTitle.scss';
 
@@ -12,7 +11,9 @@ const ChatTitle = ({ selectedConversation, onDeleteConversation }) => {
             <>
                 <span>{ selectedConversation.title }</span>
                 <div onClick={ () => { onDeleteConversation(); } } title="Delete Conversation">
-                    <TrashIcon />
+                    <div>
+                        <strong><span className="fa fa-trash fa-lg"></span></strong>
+                    </div>
                 </div>
             </>
         );

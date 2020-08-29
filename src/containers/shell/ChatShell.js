@@ -9,7 +9,9 @@ import NewConversation from '../../components/conversation/new-conversation/NewC
 import ChatTitle from '../../components/chat-title/ChatTitle';
 import MessageList from '../message/MessageList';
 import ChatForm from '../../components/chat-form/ChatForm';
-
+import Header from '../../components/header/header';
+import  Footer from '../../components/header/footer';
+import  '../../components/header/header.css';
 import './ChatShell.scss';
 
 const ChatShell = ({ 
@@ -39,7 +41,12 @@ const ChatShell = ({
     }
 
     return (
-        <div id="chat-container">
+        <div className="mt-auto">
+        <Header/>
+        <div>
+        <div id="chat-container" className="sm-6 mt-1">
+            
+                
             <ConversationSearch conversations={conversations} />
             <ConversationList
                 onConversationItemSelected={conversationChanged}
@@ -53,7 +60,14 @@ const ChatShell = ({
             <ChatForm 
                 selectedConversation={selectedConversation}
                 onMessageSubmitted={onMessageSubmitted} />
+                
         </div>
+        
+        </div>
+        <Footer/>
+        </div>
+        
+        
     );
 }
 

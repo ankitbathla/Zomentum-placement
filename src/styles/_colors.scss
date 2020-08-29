@@ -1,6 +1,6 @@
 @import '../../node_modules/compass-sass-mixins/lib/compass/utilities/color/_contrast.sass';
 
-$primary-color: #0048AA;
+$primary-color:#000;
 $accent-color: #EEE;
 
 $contrasted-primary-text: #FFF; // contrast-color($primary-color, lighten($accent-color, 10), darken($accent-color, 10));

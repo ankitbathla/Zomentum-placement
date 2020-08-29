@@ -3,7 +3,7 @@ const initialState = {
     selectedConversation: {}
 };
 
-initialState.selectedConversation = initialState.conversations[1];
+initialState.selectedConversation = initialState.conversations[1 ];
 
 const conversationsReducer = (state = initialState, action) => {
     switch (action.type) {
@@ -56,7 +56,7 @@ const conversationsReducer = (state = initialState, action) => {
                     imageUrl: null,
                     imageAlt: null,
                     messageText: action.textMessage,
-                    createdAt: 'Apr 16',
+                    createdAt: '111111111111',
                     isMyMessage: true
                 },
             )

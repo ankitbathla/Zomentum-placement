@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 import FormButton from '../controls/buttons/FormButton';
-import AttachmentIcon from '../controls/icons/attachment-icon/AttachmentIcon';
 
 import './ChatForm.scss';
 
@@ -23,14 +22,17 @@ const ChatForm = ({ selectedConversation, onMessageSubmitted }) => {
         formContents = (
             <>
                 <div title="Add Attachment">
-                    <AttachmentIcon />
+                    <div>
+                       <strong><span className="fa fa-paperclip fa-5x aria-hidden=true"></span></strong>
+                        </div>
                 </div>
                 <input 
                     type="text" 
                     placeholder="type a message" 
                     value={textMessage}
                     onChange={ (e) => { setTextMessage(e.target.value); } } />
-                <FormButton disabled={ disableButton }>Send</FormButton>
+                    <div>{textMessage}</div>
+                <FormButton  onSubmit={(values) => this.handleFormSubmit({textMessage})}disabled={ disableButton }>Send</FormButton>
             </>
         );
     

@@ -1,7 +1,7 @@
 # Zomentum-placement
 # Frontend
 # UI for chat application .Insipiration from whatsapp-web
-# append mesaage using form to collect thr message and by using function handleformondubmit appending the message in int meassage list.
+# appended message.
 # react-redux.
 # store->actions->reducers.
 # main App.js and Chatshell.js

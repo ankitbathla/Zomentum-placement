@@ -3,9 +3,7 @@
 # UI for chat application .
 # Inspiration from whatsapp-web
 # appended message.
-# react-redux.
-# store->actions->reducers.
-# main App.js and Chatshell.js
+# main file- App.js and Chatshell.js
 # Screenshots-
 <img src="screenshots/photo1.png">
 <img src="screenshots/photo2.png">

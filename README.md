@@ -1,7 +1,7 @@
 # Zomentum-placement
 # Frontend
 # UI for chat application .
-# Inspirationfrom whatsapp-web
+# Inspiration from whatsapp-web
 # appended message.
 # react-redux.
 # store->actions->reducers.
